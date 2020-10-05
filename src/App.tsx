@@ -6,12 +6,15 @@ import TextField from "@material-ui/core/TextField";
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
+	margin: 0 auto;
+	max-width: 800px;
+
 	& > h1 {
 		font-size: 22px;
 	}
 
 	& > .inputs {
-		margin-bottom: 22px;
+		margin-bottom: 24px;
 	}
 
 	& > .inputs > :first-child {
@@ -22,8 +25,13 @@ const StyledDiv = styled.div`
 		display: none;
 	}
 
-	margin: 0 auto;
-	max-width: 800px;
+	@media only screen and (max-width: 820px) {
+		padding: 0px 10px 0px 10px;
+
+		& > .inputs > :first-child {
+			margin-bottom: 12px;
+		}
+	}
 `;
 
 export default function App() {
