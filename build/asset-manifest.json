@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pharmacy-tools/static/css/main.f1a6c620.chunk.css",
+    "main.js": "/pharmacy-tools/static/js/main.2da020e7.chunk.js",
+    "main.js.map": "/pharmacy-tools/static/js/main.2da020e7.chunk.js.map",
+    "runtime-main.js": "/pharmacy-tools/static/js/runtime-main.6dc9168d.js",
+    "runtime-main.js.map": "/pharmacy-tools/static/js/runtime-main.6dc9168d.js.map",
+    "static/js/2.a357f000.chunk.js": "/pharmacy-tools/static/js/2.a357f000.chunk.js",
+    "static/js/2.a357f000.chunk.js.map": "/pharmacy-tools/static/js/2.a357f000.chunk.js.map",
+    "index.html": "/pharmacy-tools/index.html",
+    "precache-manifest.3fb7d608999085f856a7a735dd95e38c.js": "/pharmacy-tools/precache-manifest.3fb7d608999085f856a7a735dd95e38c.js",
+    "service-worker.js": "/pharmacy-tools/service-worker.js",
+    "static/css/main.f1a6c620.chunk.css.map": "/pharmacy-tools/static/css/main.f1a6c620.chunk.css.map",
+    "static/js/2.a357f000.chunk.js.LICENSE.txt": "/pharmacy-tools/static/js/2.a357f000.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6dc9168d.js",
+    "static/js/2.a357f000.chunk.js",
+    "static/css/main.f1a6c620.chunk.css",
+    "static/js/main.2da020e7.chunk.js"
+  ]
+}
