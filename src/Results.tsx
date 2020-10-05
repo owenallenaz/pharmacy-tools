@@ -68,9 +68,9 @@ function Results({ dose, volume }: { dose: number, volume: number }) {
 	<StyledTable>
 	  <thead>
 		<tr>
-			<th>Titration (total time elapsed)</th>
-			<th>Infusion Rate (mL/hr)</th>
-			<th>Volume to be Infused (mL)</th>
+			<th>Titration (total <span role="img" aria-label="time">🕒</span>)</th>
+			<th>Rate (mL/hr)</th>
+			<th>Volume (mL)</th>
 			<th className="noScreen">Complete</th>
 		</tr>
 		</thead>
