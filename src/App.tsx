@@ -14,7 +14,7 @@ const StyledDiv = styled.div`
 	}
 
 	& > .inputs {
-		margin-bottom: 24px;
+		margin-bottom: 12px;
 	}
 
 	& > .inputs > :first-child {
