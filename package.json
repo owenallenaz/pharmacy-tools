@@ -20,7 +20,7 @@
   },
   "scripts": {
     "docker_build": "docker build -t pharmacy:local .",
-    "docker_run": "docker run -p 3000:3000 -v $PWD/lib:/app/lib -v $PWD/src:/app/src -v $PWD/package.json:/app/package.json -v $PWD/tsconfig.json:/app/tsconfig.json -v $PWD/package-lock.json:/app/package-lock.json -it pharmacy:local bash",
+    "docker_run": "docker run -p 3000:3000 -v $PWD/public:/app/public -v $PWD/src:/app/src -v $PWD/package.json:/app/package.json -v $PWD/tsconfig.json:/app/tsconfig.json -v $PWD/package-lock.json:/app/package-lock.json -it pharmacy:local bash",
     "docker": "npm run docker_build && npm run docker_run",
     "start": "CHOKIDAR_USEPOLLING=true react-scripts start",
     "build": "react-scripts build",
